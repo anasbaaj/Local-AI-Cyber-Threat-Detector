@@ -21,3 +21,25 @@ Unlike traditional rule-based IDS, this tool can identify unknown threats by ana
    ```bash
    git clone [https://github.com/anasbaaj/Local-AI-Cyber-Threat-Detector.git](https://github.com/anasbaaj/Local-AI-Cyber-Threat-Detector.git)
    cd Local-AI-Cyber-Threat-Detector
+
+   2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+   3. **Run the Sentinel:**
+   ```bash
+   python main.py
+
+   📊 How It Works
+The tool analyzes four key features to determine threat probability:
+
+Payload Size: Large payloads on non-transfer ports.
+
+Port Usage: Traffic on sensitive ports (e.g., 22, 445, 3389).
+
+Response Time: Statistical deviations in server latency.
+
+Status Codes: Clusters of error codes (4xx, 5xx).
+
+⚠️ License
+This project is licensed under the MIT License.
