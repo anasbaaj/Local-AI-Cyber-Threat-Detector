@@ -23,12 +23,12 @@ Unlike traditional rule-based IDS, this tool can identify unknown threats by ana
    cd Local-AI-Cyber-Threat-Detector
    ```
 
-   2. **Install dependencies:**
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-   3. **Run the Sentinel:**
+3. **Run the Sentinel:**
    ```bash
    python main.py
    ```
@@ -46,4 +46,5 @@ Status Codes: Clusters of error codes (4xx, 5xx).
 
 ⚠️ License
 This project is licensed under the MIT License.
+
 
